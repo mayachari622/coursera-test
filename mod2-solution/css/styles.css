@@ -9,8 +9,8 @@ h1 {
 }
 
 .container {
-	border: 3px solid black;
-	background: #f4c3e2;
+	border: 1px solid black;
+	background: #bdbdbd;
 	width: 93%;
 	position: relative;
 	/*left: 5%; */
@@ -20,8 +20,8 @@ h1 {
 }
 
 .heading {
-	border-bottom: 3px solid black;
-	border-left: 3px solid black;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
 	margin: 0;
 	width: 45%;
 	position: absolute;
@@ -38,15 +38,16 @@ h1 {
 }
 
 .appetizer {
-	background: #bdbdbd;
+	background: #f6b9de;
 }
 
 .entree {
-	background: #9d9d9d;
+	background: #e24f4f;
+	color: #fbf3f5;
 }
 
 .dessert {
-	background: #7c7c7c;
+	background: #f4e98c;
 }
 
 
