@@ -1,0 +1,101 @@
+
+/*************** base styling ********************/
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	border: 3px solid black;
+	background: #f4c3e2;
+	width: 93%;
+	position: relative;
+	/*left: 5%; */
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.heading {
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	margin: 0;
+	width: 45%;
+	position: absolute;
+	right: 0;
+	padding: 3px;
+	text-align: center;
+
+}
+
+.par {
+	position: relative;
+	top: 20px;
+	padding: 10px;
+}
+
+.appetizer {
+	background: #bdbdbd;
+}
+
+.entree {
+	background: #9d9d9d;
+}
+
+.dessert {
+	background: #7c7c7c;
+}
+
+
+/*************** large devices *******************/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		margin-bottom: 10px;
+		width: 33.33%;
+		float: left;
+	
+	}
+
+}
+
+
+/*************** medium devices ******************/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		margin-bottom: 3.5%;
+		width: 50%;
+		float: left;
+
+	}
+	.col-md-12 {
+		margin-bottom: 10px;
+		width: 100%;
+		float: left;
+	}
+	.dessert {
+		width: 22.5%;
+	}
+
+	.col-md-12 > .container {
+		width: 96.5%;
+		/*left: 2.5%; */
+	}
+
+}
+
+
+/*************** small devices *******************/
+@media (max-width: 767px) {
+	.col-sm-12 {
+		margin-bottom: 10px;
+		width: 100%;
+		float: left;
+	}
+
+}
+
+
+
